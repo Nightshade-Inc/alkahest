@@ -8,7 +8,7 @@ WorldgenEvents.remove(event => {
 			"bauxite": "",
 			"ruby": "thermal",
 			"sapphire": "thermal",
-			"iridium": "",
+			"iridium": "techreborn",
 			"cinnabar": "thermal",
 			"pyrite": "techreborn",
 			"nickel": "thermal",
