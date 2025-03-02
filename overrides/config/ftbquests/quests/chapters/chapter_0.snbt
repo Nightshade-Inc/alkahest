@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_0"
+	group: ""
+	id: "2EBD0D3AF3F88C69"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:crafting_table"
+			id: "3770C86FF8BAC492"
+			rewards: [
+				{
+					id: "447E04D239683D69"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4BFC61CBEC7CB0C9"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "312380541FCF87D1"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					id: "6DAE57E2878DAB40"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Getting Started"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3770C86FF8BAC492"]
+			icon: "minecraft:furnace"
+			id: "322AA4D801303D31"
+			rewards: [
+				{
+					count: 4
+					id: "3653747C16ABDAA4"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E4D986BABEC8038"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "3ACFDD7B9F23EF18"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "31A56848B6A3DBF4"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["322AA4D801303D31"]
+			id: "3C06F1AB9B1E9F5D"
+			tasks: [
+				{
+					count: 8L
+					id: "5C8C62325A0E1B00"
+					item: { Count: 8, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "597C53F547131081"
+					item: { Count: 8, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "06FB904426BB34AD"
+					item: { Count: 8, id: "techreborn:raw_tin" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "79F8FF29DC0E5F53"
+					item: { Count: 8, id: "create:raw_zinc" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "748E255A7BB61AC7"
+					item: { Count: 8, id: "minecraft:raw_gold" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "79FDB18450957EC8"
+					item: { Count: 8, id: "techreborn:raw_silver" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "14F7C7CD5DF0A5FD"
+					item: { Count: 8, id: "techreborn:raw_lead" }
+					type: "item"
+				}
+			]
+			title: "Basic Ores"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			icon: "vinery:fermentation_barrel"
+			id: "6304C2525A4EB31E"
+			rewards: [
+				{
+					id: "37404BEBA0F09B30"
+					item: "vinery:basket"
+					type: "item"
+				}
+				{
+					id: "2EABE02DF1A08DBC"
+					item: "vinery:wine_box"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4819EE9E64F21DF4"
+					item: "vinery:grapevine_pot"
+					type: "item"
+				}
+				{
+					id: "553F8606C400F73C"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "642B8B36B3B1EBE7"
+					item: "vinery:apple_press"
+					type: "item"
+				}
+			]
+			title: "[Let's Do] Vinery"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: "bakery:brick_stove"
+			id: "02DCAD205BC098A4"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3C80F591B4FFDB39"
+					item: "bakery:kitchen_sink"
+					type: "item"
+				}
+				{
+					id: "32F4F32550283C9E"
+					item: "bakery:brick_stove"
+					type: "item"
+				}
+				{
+					id: "71BE469A51EFD03F"
+					item: "bakery:baker_station"
+					type: "item"
+				}
+			]
+			title: "[Let's Do] Bakery"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			icon: "farmersdelight:stove"
+			id: "785369C9735DDBC6"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7E75D74A82B9904B"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "60781AD83D7FFA63"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "0F614927075083F2"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AE0EA40B3EE405F"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "Farmer's Delight"
+			x: 0.5d
+			y: 7.5d
+		}
+	]
+	title: "Chapter 0"
+}

@@ -1,0 +1,12 @@
+{
+  "minecraft:projecte": true,
+  "balm:wthit": true,
+  "ae2:wthit": true,
+  "waila:core": true,
+  "waila:vanilla": true,
+  "waila:harvest": true,
+  "waila:extra": true,
+  "waila:forge": true,
+  "biomeswevegone:plugin": true,
+  "waystones:plugin": true
+}
